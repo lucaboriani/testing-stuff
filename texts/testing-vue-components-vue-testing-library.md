@@ -344,7 +344,7 @@ export default {
 </script>
 ```
 
-out test : 
+our test : 
 
 ```js
 import '@testing-library/jest-dom'
