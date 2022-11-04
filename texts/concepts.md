@@ -1,8 +1,12 @@
 # Concepts
 
+Tests should be composed using a pattern that makes them easy to write, reason about, and expand.
+
+One pattern is the
+
 ## AAA (Arrange-Act-Assert)
 
-Tests should be composed using a pattern that makes them easy to write, reason about, and expand. One pattern is the AAA (Arrange-Act-Assert) pattern, which encourages the organization of the test code in a way that allows the most readability and flexibility.
+Which encourages the organization of the test code in a way that allows the most readability and flexibility.
 
 In step one, the Arrange step, you have to perform some setup for your test. 
 

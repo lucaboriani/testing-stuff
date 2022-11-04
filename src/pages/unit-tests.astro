@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 let posts = await Astro.glob('../../texts/unit-testing-with-jest.md');
 let post = posts[0];
+const pageTitle = 'Unit tests with jest'
 ---
 <BaseLayout>
 	<post.Content />

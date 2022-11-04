@@ -22,7 +22,7 @@ or
 
 `yarn add --dev @testing-library/vue`
 
-All examples taken from [vue testing library repo](https://github.com/testing-library/vue-testing-library)
+**All examples taken from [vue testing library repo](https://github.com/testing-library/vue-testing-library)**
 
 ## Basic Example
 

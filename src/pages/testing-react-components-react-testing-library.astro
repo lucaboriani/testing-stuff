@@ -1,0 +1,9 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+let posts = await Astro.glob('../../texts/testing-react-components-react-testing-library.md');
+let post = posts[0];
+const pageTitle = 'Testing React with react testing library'
+---
+<BaseLayout>
+	<post.Content />
+</BaseLayout>

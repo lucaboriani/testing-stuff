@@ -14,16 +14,16 @@ body{
 }
 h1, h2, h3 {
     color: rgb(185, 185, 184);
-    font-weight: 100;
+    font-weight: 200;
 }
 h1{
-    font-size: 2.5em
-}
-h2{
     font-size: 2em
 }
-h3{
+h2{
     font-size: 1.5em
+}
+h3{
+    font-size: 1.3em
 }
 
 
@@ -35,12 +35,19 @@ h3{
 .main p{
     max-width: 65%;
     margin: 1em 0em;
+    line-height: 1.6em;
+}
+.main a {
+    color: darkseagreen;
 }
 
 /* nav styles */
 .hamburger {
-  padding-right: 20px;
-  cursor: pointer;
+    cursor: pointer;
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    z-index: 1;
 }
 
 .hamburger .line {
@@ -48,7 +55,7 @@ h3{
   width: 40px;
   height: 5px;
   margin-bottom: 10px;
-  background-color: #ff9776;
+  background-color: darkseagreen;
 }
 .nav-links {
   width: 100%;
@@ -67,19 +74,28 @@ h3{
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
+  color: darkseagreen;
+  font-weight: 100;
 }
 
 .nav-links a:hover, a:focus {
-  background-color: #ff9776;
+  background-color: #a09e9d;
+  color:black;
 }
 
 .expanded {
   display: unset;
 }
 
+.footer{
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (min-width: 636px) {
   .nav-links {
-    margin-left: 5em;
+    margin-left: 2em;
     display: block;
     position: static;
     width: auto;
@@ -88,8 +104,9 @@ h3{
 
   .nav-links a {
     display: inline-block;
-    padding: 15px 20px;
+    padding: 1em;
   }
+  
   .hamburger {
     display: none;
   }
@@ -98,6 +115,6 @@ h3{
 @media screen and (max-width: 959px) {
   .main{
     width: 100%;
-    padding: 1em;
+    padding: 2em;
   }
 }

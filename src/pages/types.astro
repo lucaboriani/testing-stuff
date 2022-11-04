@@ -1,0 +1,9 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+let posts = await Astro.glob('../../texts/types-of-testing.md');
+let post = posts[0];
+const pageTitle = 'Types of testing'
+---
+<BaseLayout>
+	<post.Content />
+</BaseLayout>
