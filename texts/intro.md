@@ -4,6 +4,8 @@ This repo should be a starting point and a handy reference for those who want to
 
 Special attention will here be given to frontend tooling and frameworks.
 
+**Please note this is a work in progress**
+
 
 ## Why Should I care ?
 
