@@ -377,20 +377,22 @@ test(`Test lodash chunk function`, () => {
 
 You should always take in account edge cases and the possibility that a funtion you are callig will generate an error.
 
-imagine we have a simple module:
+imagine we have a simple module which creates a div in anothe div:
 
 ```js
 export function createContainerInMount (selector) {
   const mount = document.querySelector(selector)
   if (mount) {
     const container = document.createElement('div')
-    container.id = 'nextcontent'
+    container.id = 'test'
     mount.appendChild(container)
     return container
   }
-  throw new Error('nextcontent : no mount found')
+  throw new Error('no mount found')
 }
 ```
+
+we could test it like this:
 
 ```js
 /**
@@ -405,14 +407,14 @@ describe('testing : createContainerInMount', () => {
       <div id="test"></div>
     `
     createContainerInMount('#test')
-    expect(document.querySelector('#nextcontent')).not.toBeNull()
+    expect(document.querySelector('#test')).not.toBeNull()
   })
   test('mount does not exist ', () => {
     document.body.innerHTML = `
     `
     expect(() => {
       createContainerInMount('#test')
-    }).toThrow('nextcontent : no mount found') // Or .toThrow('expectedErrorMessage')
+    }).toThrow('no mount found') // Or .toThrow('expectedErrorMessage')
   })
 })
 ```
