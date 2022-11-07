@@ -84,7 +84,9 @@ h3{
 }
 
 .expanded {
-  display: unset;
+  display: flex;
+  background-color: black;
+  flex-direction: column;
 }
 
 .header{
