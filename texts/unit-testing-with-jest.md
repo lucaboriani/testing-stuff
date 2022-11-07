@@ -375,7 +375,7 @@ test(`Test lodash chunk function`, () => {
 
 ## Expecting a function to throw error:
 
-You should always take in account edge cases and the possibility that a funtion you are callig will generate an error.
+You should always take in account edge cases and the possibility that a funtion you are calling will generate an error.
 
 imagine we have a simple module which creates a div in anothe div:
 
