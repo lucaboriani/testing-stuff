@@ -66,7 +66,7 @@ h3{
   margin: 0;
 }
 
-.nav-links a {
+.nav-links a, .footer a {
   display: block;
   text-align: center;
   padding: 10px 0;
