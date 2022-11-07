@@ -371,3 +371,48 @@ test(`Test lodash chunk function`, () => {
   expect(lodash.chunk).toHaveBeenCalledWith(['a', 'b', 'c', 'd'], 2)
 })
 ```
+
+
+## Expecting a function to throw error:
+
+You should always take in account edge cases and the possibility that a funtion you are callig will generate an error.
+
+imagine we have a simple module:
+
+```js
+export function createContainerInMount (selector) {
+  const mount = document.querySelector(selector)
+  if (mount) {
+    const container = document.createElement('div')
+    container.id = 'nextcontent'
+    mount.appendChild(container)
+    return container
+  }
+  throw new Error('nextcontent : no mount found')
+}
+```
+
+```js
+/**
+ * @jest-environment jsdom
+ */
+/* eslint-disable no-undef */
+import { createContainerInMount } from '../createContainerInMount'
+
+describe('testing : createContainerInMount', () => {
+  test('mount exists ', () => {
+    document.body.innerHTML = `
+      <div id="test"></div>
+    `
+    createContainerInMount('#test')
+    expect(document.querySelector('#nextcontent')).not.toBeNull()
+  })
+  test('mount does not exist ', () => {
+    document.body.innerHTML = `
+    `
+    expect(() => {
+      createContainerInMount('#test')
+    }).toThrow('nextcontent : no mount found') // Or .toThrow('expectedErrorMessage')
+  })
+})
+```
