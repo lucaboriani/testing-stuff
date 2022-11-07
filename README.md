@@ -7,7 +7,7 @@ Currently it's a cutup of various sources available online, and is at it's early
 
 Special attention will here be given to frontend tooling and frameworks.
 
-**Please note this is a work in progress, any constuctive contribution and suggestion is friendly wellcome :)**
+**Please note this is a work in progress, any constuctive contribution and suggestion is friendly welcome :)**
 
 
 Currently the "Blog" is built with [Astro🚀](https://astro.build/) 
