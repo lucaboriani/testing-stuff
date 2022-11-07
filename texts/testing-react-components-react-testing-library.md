@@ -174,6 +174,16 @@ test("MyApp should render hello world", () => {
 
 ### Testing custom hooks
 
-Take a look at [How to test custom React hooks](https://kentcdodds.com/blog/how-to-test-custom-react-hooks) by Kent C. Dodds as it's a pretty complex issue and the article's great!
+@todo
 
+4 now Take a look at [How to test custom React hooks](https://kentcdodds.com/blog/how-to-test-custom-react-hooks) by Kent C. Dodds as it's a pretty complex issue and the article's great!
+
+
+### Testing Redux
+
+@todo
+
+### Testing Contexts
+
+@todo
 
