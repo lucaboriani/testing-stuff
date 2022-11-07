@@ -41,7 +41,8 @@ Do you know the feeling when you have just finished a new feature of your applic
 
 This situation would have never occurred if you had tested your old features. You could have frequently run those tests to check if your application is still working as expected. **The tests would also give you a better idea of what exactly isn't working anymore because the appropriate test cases would fail**.
 
-from [An Introduction to testing in Javascript](https://gabrieltanner.org/blog/testing-introduction/) :
+from [An Introduction to testing in Javascript](https://gabrieltanner.org/blog/testing-introduction/)
+
 
 
 ## Testing Mindset
