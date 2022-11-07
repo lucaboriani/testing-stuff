@@ -19,7 +19,7 @@ There's a whole new world of tooling and environments to get acquainted to, a ne
 
 Yet, especially when building mid to large sized applications, the advantages of a properly tested codebase start to become clearer.
 
-from [An Introduction to testing in Javascript](https://gabrieltanner.org/blog/testing-introduction/) :
+
 
 ### Building Confidence In Your Code
 
@@ -41,7 +41,8 @@ Do you know the feeling when you have just finished a new feature of your applic
 
 This situation would have never occurred if you had tested your old features. You could have frequently run those tests to check if your application is still working as expected. **The tests would also give you a better idea of what exactly isn't working anymore because the appropriate test cases would fail**.
 
-from [Understanding the Testing Mindset](https://learn.cypress.io/testing-foundations/testing-is-a-mindset)
+from [An Introduction to testing in Javascript](https://gabrieltanner.org/blog/testing-introduction/) :
+
 
 ## Testing Mindset
 
@@ -55,4 +56,5 @@ Now that we understand that testing is a mindset, we need to discuss how this mi
 
 What does this new feature need to do? Once you understand that, you can break the problem down into small incremental steps, and translate those steps into tests. This way you have a clear path to achieve your goal and a suite of tests that will confirm everything is working properly.
 
+from [Understanding the Testing Mindset](https://learn.cypress.io/testing-foundations/testing-is-a-mindset)
 
