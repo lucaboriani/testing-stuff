@@ -87,6 +87,14 @@ h3{
   display: unset;
 }
 
+.header{
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  z-index: 9;
+  top: 0;
+}
 .footer {
   padding: 2em;
   display: flex;
