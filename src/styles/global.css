@@ -31,6 +31,7 @@ h3{
     max-width: 960px;
     position: relative;
     margin: auto;
+    padding-top: 80px;
 }
 .main p{
     max-width: 65%;

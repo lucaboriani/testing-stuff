@@ -1,8 +1,8 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-let posts = await Astro.glob('../../texts/end-to-end.md');
+let posts = await Astro.glob('../../texts/intro-to-cypress.md');
 let post = posts[0];
-const pageTitle = 'End to end testing'
+const pageTitle = 'Intro to Cypress'
 ---
 <BaseLayout>
 	<post.Content />
