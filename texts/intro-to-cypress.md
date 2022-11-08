@@ -35,7 +35,7 @@ If this is your first time using Cypress it will take you through the following 
 
 The Launchpad presents you with your biggest decision first: What type of testing shall I do? 
 
-[E2E Testing](/end-to-end), where I run my whole application and visit pages to test them? Or Component Testing, where I mount individual components of my app and test them in isolation?
+[E2E Testing](/end-to-end), where I run my whole application and visit pages to test them? Or [Component Testing](/component-test), where I mount individual components of my app and test them in isolation?
 
 
 
