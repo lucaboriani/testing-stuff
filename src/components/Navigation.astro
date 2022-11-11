@@ -17,8 +17,15 @@
     flex-direction: column;
     padding-left: .5em;
 }
+.sublinks small {
+    padding: 0 2em;
+}
 .sublinks ul li a{
    width: 100%; 
+}
+.sublinks img{
+    height: 1em;
+    width: auto;
 }
 @media screen and (max-width: 1229px) {
   .nav-links ul {
@@ -51,7 +58,10 @@
         <li>
             <a href="/component-test/">Component tests</a>
             <div class="sublinks">
-                <small>Testing Library</small>
+                <small>
+                    <img src="/domtesting.png"/>
+                    Testing Library
+                </small>
                 <ul>
                     <li>
                         <a href="/testing-react-components-react-testing-library">React</a>
@@ -60,7 +70,10 @@
                         <a href="/testing-vue-components-vue-testing-library">Vue</a>
                     </li>
                 </ul>
-                <small>Cypress</small>
+                <small>
+                    <img src="/cypress.svg"/>
+                    Cypress
+                </small>
                 <ul>
                     <li>
                         <a href="/testing-react-components-cypress">React</a>

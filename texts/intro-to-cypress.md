@@ -56,10 +56,25 @@ For a comprehensive guide on
 
 take a read here: [Best Practices](https://docs.cypress.io/guides/references/best-practices)
 
+
+
+## Writing and organizing Test , Cypress
+
+[https://docs.cypress.io/guides/core-concepts/writing-and-organizing-tests](https://docs.cypress.io/guides/core-concepts/writing-and-organizing-tests)
+
+
+
+
+
+## 1 afternoon free Course on learn.cypress.io:
+
+Here an excellent introduction to Cypress [https://learn.cypress.io/](https://learn.cypress.io/)
+
 ## Recipes
 
 An Excellent list of examples can be found here:
 [Cypress Recipes](https://docs.cypress.io/examples/examples/recipes#Fundamentals) 
+
 
 
 ## Cypress RWA (Real World Application)
