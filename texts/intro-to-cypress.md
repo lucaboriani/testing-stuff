@@ -91,7 +91,7 @@ Testing user journeys also tests all of the layers within your tech stack. You a
 see also [How to test user journeys](https://learn.cypress.io/testing-your-first-application/how-to-test-user-journeys)
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lLk_oPeUcNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lLk_oPeUcNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 
 ## Best Pracitces
 
@@ -169,7 +169,7 @@ The .click(), .type(), .check(), .uncheck(), and .select() Cypress commands are 
 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kBYtqsK-8Aw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kBYtqsK-8Aw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 
 
 
