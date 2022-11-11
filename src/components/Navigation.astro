@@ -1,12 +1,69 @@
 ---
 
 ---
+<style>
+.nav-links ul {
+    list-style: none;
+    display: flex;
+}
+.sublinks{
+    display: none;
+    background-color: black;
+}
+.nav-links ul li:hover .sublinks{
+    display: block;
+}
+.sublinks ul{
+    flex-direction: column;
+    padding-left: .5em;
+}
+.sublinks ul li a{
+   width: 100%; 
+}
+</style>
 <div class="nav-links">
-    <a href="/">Home</a>
-    <a href="/types/">Types of testing</a>
-    <a href="/concepts">Concepts</a>
-    <a href="/unit-tests/">Unit tests (with Jest)</a>
-    <a href="/end-to-end/">End to end tests</a>
-    <a href="/component-test/">Component tests</a>
-    <a href="/intro-to-cypress/">Cypress</a>
+    <ul>
+        <li>
+            <a href="/">Home</a> 
+        </li>
+        <li>
+            <a href="/types/">Types of testing</a>
+        </li>
+        <li>
+            <a href="/concepts">Concepts</a>
+        </li>
+        <li>
+            <a href="/unit-tests/">Unit tests (with Jest)</a>
+        </li>
+        <li>
+            <a href="/end-to-end/">End to end tests</a>
+        </li>
+        <li>
+            <a href="/component-test/">Component tests</a>
+            <div class="sublinks">
+                <small>Testing Library</small>
+                <ul>
+                    <li>
+                        <a href="/testing-react-components-react-testing-library">React</a>
+                    </li>
+                    <li>
+                        <a href="/testing-vue-components-vue-testing-library">Vue</a>
+                    </li>
+                </ul>
+                <small>Cypress</small>
+                <ul>
+                    <li>
+                        <a href="/testing-react-components-cypress">React</a>
+                    </li>
+                    <li>
+                        <a href="/testing-vue-components-cypress">Vue</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </li>
+        <li>
+            <a href="/intro-to-cypress/">Cypress</a>
+        </li>
+    </ul>
 </div>
