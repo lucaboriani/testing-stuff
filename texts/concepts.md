@@ -1,10 +1,34 @@
 # Concepts
 
-Tests should be composed using a pattern that makes them easy to write, reason about, and expand.
+## Testing Workflow
+Developing features and fixing bugs should be test driven. 
 
-One pattern is the
+An example of building out a front-end facing feature may go like this:
+
+1. Check user requirements in the ticket/issue you’re assigned to.
+1. Write a failing component test for a features required in the user story.
+1. Build the piece of the component needed so that the failing test passes.
+1. Repeat steps 2-3 until the component satisfies the user requirements.
+1. Write out all CSS required for the feature to be design complete. 
+1. Add a screenshot test. 
+1. Write an E2E test to ensure all pieces and integrations work together. 
+1. Add performance tests if necessary to ensure the feature doesn’t introduce regressions on performance. 
+
+An example of building out a feature/change to the CLI may go like this:
+
+1. Check user requirements in the ticket/issue you’re assigned to.
+1. Write a failing unit/integration test for the feature required in the user story.1. Write the logic for the new feature/change.
+1. Capture/update a snapshot test for any changes to the printed console output. 
+
+from [CYPRESS TESTING STRATEGY + STYLE GUIDE](https://github.com/cypress-io/cypress/blob/develop/guides/testing-strategy-and-styleguide.md)
+
+
 
 ## AAA (Arrange-Act-Assert)
+
+Tests should be composed using a pattern that makes them easy to write, reason about, and expand.
+
+One pattern is the AAA (Arrange-Act-Assert)
 
 Which encourages the organization of the test code in a way that allows the most readability and flexibility.
 

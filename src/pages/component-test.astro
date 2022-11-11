@@ -1,9 +1,12 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import FrameworkLinks from '../components/FrameworkLinks.astro'
 let posts = await Astro.glob('../../texts/component-test.md');
 let post = posts[0];
 const pageTitle = 'Component Test'
 ---
+
 <BaseLayout>
 	<post.Content />
+	<FrameworkLinks/>
 </BaseLayout>

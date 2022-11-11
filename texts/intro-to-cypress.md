@@ -35,7 +35,44 @@ If this is your first time using Cypress it will take you through the following 
 
 The Launchpad presents you with your biggest decision first: What type of testing shall I do? 
 
-[E2E Testing](/end-to-end), where I run my whole application and visit pages to test them? Or [Component Testing](/component-test), where I mount individual components of my app and test them in isolation?
+[E2E Testing](/end-to-end), where I run my whole application and visit pages to test them? 
+
+Or [Component Testing](/component-test), where I mount individual components of my app and test them in isolation?
+
+
+
+## Best Pracitces
+
+For a comprehensive guide on 
+- Organizing Tests, Logging In, Controlling State
+- Selecting Elements
+- Assigning Return Values
+- Visiting external sites
+- Having tests rely on the state of previous tests
+- Creating "tiny" tests with a single assertion
+- Using after or afterEach hooks
+- Unnecessary Waiting
+- Running Tests Intelligently
+
+take a read here: [Best Practices](https://docs.cypress.io/guides/references/best-practices)
+
+## Recipes
+
+An Excellent list of examples can be found here:
+[Cypress Recipes](https://docs.cypress.io/examples/examples/recipes#Fundamentals) 
+
+
+## Cypress RWA (Real World Application)
+
+The Cypress team maintains the  [Real World App (RWA)](https://github.com/cypress-io/cypress-realworld-app), a full stack example application that demonstrates best practices and scalable strategies with Cypress in practical and realistic scenarios.
+
+
+## Further resources :
+
+[Cypress youtube channel](https://www.youtube.com/cypress_io)
+
+
+
 
 
 

@@ -34,4 +34,33 @@ Built on top of [Dom testing Library](https://testing-library.com/docs/dom-testi
 
 # Component testing with Cypress
 
-@ todo
+Cypress Component Testing provides a component workbench for you to quickly build and test components from multiple front-end UI libraries
+
+
+
+## Quick Example
+
+React:
+```js
+import Button from './Button'
+
+it('uses custom text for the button label', () => {
+  cy.mount(<Button>Click me!</Button>)
+  cy.get('button').should('contains.text', 'Click me!')
+})
+```
+
+Vue:
+```js
+import Button from './Button.vue'
+
+it('uses custom text for the button label', () => {
+  cy.mount(Button, {
+    slots: {
+      default: 'Click me!',
+    },
+  })
+  cy.get('button').should('contains.text', 'Click me!')
+})
+```
+

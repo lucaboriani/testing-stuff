@@ -1,0 +1,41 @@
+---
+
+---
+<style>
+	.box{
+		height: 120px;
+		display: flex;
+		align-items: center;
+    	justify-content: space-around;
+	}
+	.box a {
+		cursor: pointer;
+		padding: 1em;
+		font-size: bold;
+		text-transform: uppercase;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		background-color: darkseagreen;
+		color:black;
+		text-decoration: none;
+	}
+	.box a:hover{
+		background-color: lightgray;
+	}
+	.box a img {
+		height: 2em;
+		margin-bottom: 1em;
+	}
+</style>
+<div class="box">
+    <a href="/testing-react-components-cypress">
+        <img src="/React.svg"/>
+        <span>React Components with cypress</span> 
+    </a>
+    <a href="/testing-vue-components-cypress">
+        <img src="/Vue.svg"/>
+        <span>Vue Components  with cypress</span>
+        
+    </a>
+</div>
