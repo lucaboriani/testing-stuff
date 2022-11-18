@@ -147,6 +147,10 @@ h3{
     max-width: 100%;
     
   }
+  .box{
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 }
 
 pre {

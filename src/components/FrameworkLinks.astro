@@ -6,19 +6,23 @@
 		height: 120px;
 		display: flex;
 		align-items: center;
-    	justify-content: space-around;
+    	justify-content: space-between;
 	}
 	.box a {
 		cursor: pointer;
 		padding: 1em;
-		font-size: bold;
+		font-weight: 200;
 		text-transform: uppercase;
+		text-align: center;
 		display: flex;
+		flex-grow: 1;
 		flex-direction: column;
 		justify-content: center;
 		background-color: darkseagreen;
 		color:black;
 		text-decoration: none;
+		max-width: 50%;
+		border: black 1px solid;
 	}
 	.box a:hover{
 		background-color: lightgray;
@@ -26,6 +30,19 @@
 	.box a img {
 		height: 2em;
 		margin-bottom: 1em;
+	}
+	@media screen and (max-width: 840px) {
+	
+		.box{
+			flex-direction: column;
+			justify-content: flex-start;
+			height: auto;
+		}
+		.box a {
+			margin: .5em 1em;
+			width: 100%;
+			max-width: initial;
+		}
 	}
 </style>
 <div class="box">
