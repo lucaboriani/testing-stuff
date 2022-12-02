@@ -7,7 +7,7 @@ Currently it's a cutup of various sources available online, and is at it's early
 
 Special attention will here be given to frontend tooling and frameworks.
 
-**Please note this is a work in progress, any constuctive contribution and suggestion is friendly welcome :)**
+**Please note this is a work in progress, any constructive contribution and suggestion is friendly welcome :)**
 
 
 
