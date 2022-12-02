@@ -225,7 +225,7 @@ You can also catch rejected promises using the catch() function.
 ```js
 test(`reverseString '' to reject promise`, () => {
   return reverseString("String").catch(error => {
-    expect(e).toMatch("Empty string");
+    expect(error).toMatch("Empty string");
   });
 });
 ```
