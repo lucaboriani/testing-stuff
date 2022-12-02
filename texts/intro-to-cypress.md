@@ -129,7 +129,7 @@ Here an excellent introduction to Cypress [https://learn.cypress.io/](https://le
 
 ## Recipes
 
-An Excellent list of examples can be found here:
+A Comprehensive list of examples can be found here:
 [Cypress Recipes](https://docs.cypress.io/examples/examples/recipes#Fundamentals) 
 
 
